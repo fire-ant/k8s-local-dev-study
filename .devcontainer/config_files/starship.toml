@@ -1,0 +1,6 @@
+# https://starship.rs/config/#prompt
+[terraform]
+symbol = "🏎💨 "
+
+[docker_context]
+symbol = "🐋 "

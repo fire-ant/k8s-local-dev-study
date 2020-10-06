@@ -1,0 +1,13 @@
+---
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  # cant make multi node until v0.9.0 due to complications with docker provider/mac.
+- role: control-plane
+  image: kindest/node:v1.19.0
+- role: worker
+  image: kindest/node:v1.19.0
+- role: worker
+  image: kindest/node:v1.19.0
+# - role: worker
+#   image: kindest/node:v1.19.0
